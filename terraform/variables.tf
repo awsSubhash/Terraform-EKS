@@ -3,7 +3,7 @@ variable "region" {
 }
 
 variable "cluster_name" {
-  default = "demo-eks-cluster"
+  default = "demo-eks-cluster-2"
 }
 
 variable "node_instance_type" {
