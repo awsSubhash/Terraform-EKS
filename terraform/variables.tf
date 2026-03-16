@@ -3,9 +3,9 @@ variable "region" {
 }
 
 variable "cluster_name" {
-  default = "demo-eks-cluster-2"
+  default = "subhash-eks-cluster"
 }
 
-variable "node_instance_type" {
-  default = "t3.medium"
+variable "cluster_version" {
+  default = "1.29"
 }
