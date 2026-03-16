@@ -1,11 +1,14 @@
 variable "region" {
-  default = "us-east-1"
+  description = "AWS region"
+  default     = "us-east-1"
 }
 
 variable "cluster_name" {
-  default = "subhash-eks-cluster"
+  description = "EKS Cluster name"
+  default     = "subhash-eks-cluster"
 }
 
 variable "cluster_version" {
-  default = "1.29"
+  description = "EKS version"
+  default     = "1.29"
 }
