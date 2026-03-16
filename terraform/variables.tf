@@ -5,7 +5,7 @@ variable "region" {
 
 variable "cluster_name" {
   description = "EKS Cluster name"
-  default     = "subhash-eks-cluster"
+  default     = "hello-subhash"
 }
 
 variable "cluster_version" {
