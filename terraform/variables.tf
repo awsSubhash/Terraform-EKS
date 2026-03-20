@@ -10,5 +10,5 @@ variable "cluster_name" {
 
 variable "cluster_version" {
   description = "EKS version"
-  default     = "1.29"
+  default     = "1.35"
 }
